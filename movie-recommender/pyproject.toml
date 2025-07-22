@@ -1,0 +1,18 @@
+[project]
+name = "movie"
+version = "0.10"
+description = "N/A"
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+license = {text = "n"}
+readme = "README.md"
+requires-python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+dependencies = [
+    "streamlit (>=1.47.0,<2.0.0)",
+    "openai (>=1.97.0,<2.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
